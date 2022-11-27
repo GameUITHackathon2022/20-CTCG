@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Introduce-1 Event</name>
+    <events>
+        <event-block sid="831926965797302">
+            <conditions>
+                <condition id="-9" inverted="1" name="Is visible" sid="183977995892068" type="Title1_txt" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="369170128847246" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="441639373266342" type="Title1_txt">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="637249413948345">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="570095282257732" type="Title1_txt" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="313897174460747" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="880952108003674" type="Thum1">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="306763562708553">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="154426503381727" type="Thum1" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="442076014795729" type="System">
+                    <param id="0" name="Seconds">1.0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="204342430975100" type="Title1_txt2">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="812355727662603">
+            <conditions>
+                <condition id="-9" name="Is visible" sid="834975208068705" type="Title1_txt2" />
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="216850458199128" type="System">
+                    <param id="0" name="Seconds">2.0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="735817860774593" type="System">
+                    <param id="0" name="Layout">Introduce-2</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

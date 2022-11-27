@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Pause Event</name>
+    <events>
+        <event-block sid="481860127851612">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="322873030001758" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Pausebtn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="760659987391497" type="Ready">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="144265022820006" type="Quit">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="694091463634555" type="Pausebtn">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="146507953657953">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="325790926263984" type="Mouse">
+                    <param id="0" name="Object">Ready</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="798707938831557" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="682524897416842" type="Ready">
+                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="967261872017659">
+            <conditions>
+                <condition id="-22" name="Else" sid="888442351685484" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="198024980190389" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="616404424529065" type="Ready">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="545857389634837">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="887315165587173" type="Mouse">
+                    <param id="0" name="Object">Quit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="883447108466011" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+                <action id="4" name="Set animation" sid="191745226152046" type="Quit">
+                    <param id="0" name="Animation">&quot;Hover&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="733215725532596">
+            <conditions>
+                <condition id="-22" name="Else" sid="559812802847769" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="498535232189395" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+                <action id="4" name="Set animation" sid="999414405957945" type="Quit">
+                    <param id="0" name="Animation">&quot;Default&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="997499686863221">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="628583693968236" type="Mouse">
+                    <param id="0" name="Object">Pausebtn</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="758863909821916" type="Mouse">
+                    <param id="0" name="Cursor style">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="903322245269634">
+            <conditions>
+                <condition id="-22" name="Else" sid="344991733867723" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set cursor style" sid="669897082933847" type="Mouse">
+                    <param id="0" name="Cursor style">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="257056627532145">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="925071049444465" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Ready</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="504671056731566" type="Quit">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="998171426775127" type="Ready">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="358808830685009" type="Pausebtn">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="811801306385847">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="726722642531096" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">Quit</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="640538681843366" type="System">
+                    <param id="0" name="Layout">Start</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

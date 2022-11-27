@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New Hope</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author>CTCG</author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>28000</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Physics" version="1">Physics</behavior>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <first-layout>Introduce-1</first-layout>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Landscape</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-folder name="Title">
+            <object-type name="Fail" sid="414120267835035">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="333008693195282" speed="5">
+                        <frame duration="1" hotspotX="0.472855" hotspotY="0.939699" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\I can&apos;t.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.480647" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.495686" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Start" sid="776208818278243">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="308166964020287" speed="5">
+                        <frame duration="1" hotspotX="0.497238" hotspotY="0.528926" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="5" loop="0" name="Grlow" pingpong="0" repeatcount="1" repeatto="0" sid="328632576157308" speed="5">
+                        <frame duration="1" hotspotX="0.498158" hotspotY="0.52686" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 1.png" />
+                        <frame duration="1" hotspotX="0.49911" hotspotY="0.524904" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 2.png" />
+                        <frame duration="1" hotspotX="0.498252" hotspotY="0.523897" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 3.png" />
+                        <frame duration="1" hotspotX="0.49871" hotspotY="0.523132" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 4.png" />
+                        <frame duration="1" hotspotX="0.498774" hotspotY="0.522654" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover.png" />
+                    </animation>
+                    <animation framecount="6" loop="0" name="UnGrlow" pingpong="0" repeatcount="1" repeatto="0" sid="565591898963082" speed="5">
+                        <frame duration="1" hotspotX="0.498774" hotspotY="0.522654" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover.png" />
+                        <frame duration="1" hotspotX="0.49871" hotspotY="0.523132" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 4.png" />
+                        <frame duration="1" hotspotX="0.498252" hotspotY="0.523897" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 3.png" />
+                        <frame duration="1" hotspotX="0.49911" hotspotY="0.524904" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 2.png" />
+                        <frame duration="1" hotspotX="0.498158" hotspotY="0.52686" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover 1.png" />
+                        <frame duration="1" hotspotX="0.497238" hotspotY="0.528926" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="899747661880213" speed="5">
+                        <frame duration="1" hotspotX="0.498774" hotspotY="0.522654" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Bắt đầu-hover.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Try" sid="166798780378291">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="462442651213578" speed="5">
+                        <frame duration="1" hotspotX="0.514664" hotspotY="0.581818" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Try.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.555345" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0.432323" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="295232278075369" speed="5">
+                        <frame duration="1" hotspotX="0.514512" hotspotY="0.577391" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Try-Hover.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.598065" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0.386087" />
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Ready" sid="566797473104024">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="536296775786318" speed="5">
+                        <frame duration="1" hotspotX="0.502177" hotspotY="0.535865" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\ready.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="0.448147" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0.577571" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="251873683807010" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.500826" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\ready-hove.png">
+                            <collision-poly>
+                                <point x="0" y="1" />
+                                <point x="1" y="1" />
+                                <point x="1" y="0" />
+                                <point x="0.674758" y="0" />
+                                <point x="0" y="0" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Quit" sid="569162789188833">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="664953384424741" speed="5">
+                        <frame duration="1" hotspotX="0.484979" hotspotY="0.541284" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\quit.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.493562" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.484979" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Hover" pingpong="0" repeatcount="1" repeatto="0" sid="467442858146143" speed="5">
+                        <frame duration="1" hotspotX="0.46492" hotspotY="0.588068" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\quit-hover.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.472123" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.466398" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Title1" sid="192173771971274">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="899921121135283" speed="5">
+                        <frame duration="1" hotspotX="0.504193" hotspotY="0.459207" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Title1.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.496413" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0.583155" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Title2" sid="152895915563047">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816761599416566" speed="5">
+                        <frame duration="1" hotspotX="0.507545" hotspotY="0.497006" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Title2.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.497006" />
+                                <point x="1" y="1" />
+                                <point x="0.505533" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.580838" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EndTitle1" sid="288773135757555">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555118944778952" speed="5">
+                        <frame duration="1" hotspotX="0.49664" hotspotY="0.590674" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\EndTitle1.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="0.999389" y="0.590674" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="EndTitle2" sid="621385465444824">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="840636727194315" speed="5">
+                        <frame duration="1" hotspotX="0.520847" hotspotY="0.521008" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\EndTitle2.png">
+                            <collision-poly>
+                                <point x="0" y="0.00210084" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite" sid="184965701282955">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974766220544842" speed="5">
+                        <frame duration="1" hotspotX="0.539441" hotspotY="0.529138" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Title3.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.542245" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="0.275369" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Title4" sid="932606687843266">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="407810135784483" speed="5">
+                        <frame duration="1" hotspotX="0.505816" hotspotY="0.772727" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\Title4.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.577922" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AxitRainBarBorder" sid="431667419384897">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="205792879295210" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.52" original-source="D:\10\Code\Construct\CTCG\new ob\AxitRainBarBorder.png">
+                            <collision-poly>
+                                <point x="0.00666667" y="0.08" />
+                                <point x="0.5" y="0" />
+                                <point x="0.993333" y="0.08" />
+                                <point x="0.993333" y="0.92" />
+                                <point x="0.5" y="1" />
+                                <point x="0.01" y="0.88" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Light" sid="455029430820679">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Variable1" sid="559070353513389" type="number" />
+                </instance-variables>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670851577905430" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FakeMouse" sid="987054970559113">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="195020892698625" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="WinV" sid="667539737216710">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="841686395402223" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.533333" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Block" sid="993334652696117">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="184662896181287">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="609238275783209">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="600728086570152" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Tree" sid="321869562293038">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Title1_txt" sid="396657157518253">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Title1_txt2" sid="996977433327552">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Introduce2" sid="398062737335743">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Introduce3" sid="137638021153787">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Endtxt" sid="298407490790691">
+                <plugin id="Text" />
+            </object-type>
+            <object-type name="Endtxt2" sid="842124481158588">
+                <plugin id="Text" />
+            </object-type>
+        </object-folder>
+        <object-folder name="Player">
+            <object-type name="Player" sid="966677508935471">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="Picking" sid="221812251571111" type="boolean" />
+                    <instance-variable name="Mission1" sid="715962833312171" type="boolean" />
+                    <instance-variable name="Planted" sid="173401052213302" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Platform" sid="149079848370379">
+                        <behavior id="Platform" />
+                    </behavior-type>
+                    <behavior-type name="ScrollTo" sid="621528603717837">
+                        <behavior id="scrollto" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="903993984020062" speed="5">
+                        <frame duration="1" hotspotX="0.526549" hotspotY="0.377691" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Player\Char-idle.png">
+                            <collision-poly>
+                                <point x="0.725664" y="0.481409" />
+                                <point x="0.714602" y="0.933464" />
+                                <point x="0.380531" y="0.928571" />
+                                <point x="0.039823" y="0.753425" />
+                                <point x="0.214602" y="0.0665362" />
+                                <point x="0.986726" y="0.082192" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="2" loop="1" name="Walk" pingpong="0" repeatcount="1" repeatto="0" sid="136154048326433" speed="5">
+                        <frame duration="1" hotspotX="0.526549" hotspotY="0.385659" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Player\Char-walking-left-2.png">
+                            <collision-poly>
+                                <point x="0.818584" y="0.934108" />
+                                <point x="0.112832" y="0.932171" />
+                                <point x="0.238938" y="0.312278" />
+                                <point x="0.287611" y="0.0465116" />
+                                <point x="0.871682" y="0.0329457" />
+                                <point x="0.787611" y="0.347162" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.54185" hotspotY="0.389764" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Player\Char-walking-left.png">
+                            <collision-poly>
+                                <point x="0.843612" y="0.948819" />
+                                <point x="0.19163" y="0.948819" />
+                                <point x="0.0837005" y="0.564961" />
+                                <point x="0.229075" y="0.28937" />
+                                <point x="0.251101" y="0.0452756" />
+                                <point x="0.881058" y="0.0492126" />
+                                <point x="0.704846" y="0.574803" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Jump" pingpong="0" repeatcount="1" repeatto="0" sid="879177266270137" speed="5">
+                        <frame duration="1" hotspotX="0.565217" hotspotY="0.333969" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Player\Char-jump.png">
+                            <collision-poly>
+                                <point x="0.363636" y="0.0648855" />
+                                <point x="0.956522" y="0.0648855" />
+                                <point x="0.782609" y="0.442748" />
+                                <point x="0.976284" y="0.669847" />
+                                <point x="0.371542" y="1" />
+                                <point x="0.0513833" y="0.652671" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="Object">
+            <object-type name="Garbage" sid="757541985938181">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953844070735858" speed="5">
+                        <frame duration="1" hotspotX="0.475524" hotspotY="0.504" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\Garbage.png">
+                            <collision-poly>
+                                <point x="0.478022" y="0.338947" />
+                                <point x="0.778388" y="0.288421" />
+                                <point x="0.899267" y="0.507368" />
+                                <point x="0.954212" y="0.928421" />
+                                <point x="0.478022" y="0.955789" />
+                                <point x="0.047619" y="0.875789" />
+                                <point x="0.195971" y="0.507368" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Fence" sid="672576523218885">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="979583276354763">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                    <behavior-type name="Solid" sid="650252537927119">
+                        <behavior id="solid" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="920159431416527" speed="5">
+                        <frame duration="1" hotspotX="0.966667" hotspotY="0.486667" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\Fence.png">
+                            <collision-poly>
+                                <point x="0.73" y="0.80146" />
+                                <point x="0.583102" y="0.996667" />
+                                <point x="0.176667" y="0.82872" />
+                                <point x="0.216667" y="0.646731" />
+                                <point x="0.21" y="0.373912" />
+                                <point x="0.206667" y="0.0366667" />
+                                <point x="0.73" y="0.0872593" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BanDo" sid="868344512418639">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="816253626380485" speed="5">
+                        <frame duration="1" hotspotX="0.548387" hotspotY="0.5" original-source="D:\10\Code\Construct\CTCG\Picture\Huongdan6.png">
+                            <collision-poly>
+                                <point x="0.0514204" y="0.0643242" />
+                                <point x="0.547227" y="0.0373752" />
+                                <point x="1" y="0.0980105" />
+                                <point x="1" y="0.918832" />
+                                <point x="0.547227" y="0.896375" />
+                                <point x="0.0524302" y="0.934552" />
+                                <point x="0.0191072" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Thung3" sid="339196411708496">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="557212734747988" speed="5">
+                        <frame duration="1" hotspotX="0.478261" hotspotY="0.576642" original-source="E:\UIT_image\Dau3.png">
+                            <collision-poly>
+                                <point x="0.0543481" y="0.0291966" />
+                                <point x="0.934784" y="0.0291967" />
+                                <point x="0.956521" y="0.963504" />
+                                <point x="0.0543473" y="0.963504" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Thung4" sid="915057088700990">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="551409005386601" speed="5">
+                        <frame duration="1" hotspotX="0.478261" hotspotY="0.569343" original-source="E:\UIT_image\Dau4.png">
+                            <collision-poly>
+                                <point x="0.0326089" y="0.0291971" />
+                                <point x="0.967392" y="0.0291973" />
+                                <point x="0.97826" y="0.978102" />
+                                <point x="0.0434783" y="0.978102" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Thung2" sid="946226069892228">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="357588366368923" speed="5">
+                        <frame duration="1" hotspotX="0.478261" hotspotY="0.576642" original-source="E:\UIT_image\Dau5.png">
+                            <collision-poly>
+                                <point x="0.0326089" y="0.0364959" />
+                                <point x="0.945653" y="0.0364959" />
+                                <point x="0.934782" y="0.970803" />
+                                <point x="0.0652169" y="0.970803" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Thung1" sid="920786531637618">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="945457640581772" speed="5">
+                        <frame duration="1" hotspotX="0.478261" hotspotY="0.569343" original-source="E:\UIT_image\Dau6.png">
+                            <collision-poly>
+                                <point x="0.0326089" y="0.0364957" />
+                                <point x="0.929349" y="0.032847" />
+                                <point x="0.940216" y="0.970803" />
+                                <point x="0.038043" y="0.976277" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="NhietKe" sid="707751856489792">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="331464983388829" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\UIT_image\Thanhtrangthai.png">
+                            <collision-poly>
+                                <point x="0.45" y="0.45" />
+                                <point x="0.5" y="0.155" />
+                                <point x="0.536667" y="0.463333" />
+                                <point x="0.536667" y="0.536667" />
+                                <point x="0.5" y="0.806667" />
+                                <point x="0.45" y="0.55" />
+                                <point x="0.451667" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Hole" sid="382421198805077">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="140044636163850" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\UIT_image\lay.png">
+                            <collision-poly>
+                                <point x="0.23" y="0.35567" />
+                                <point x="0.5" y="0.363402" />
+                                <point x="0.735" y="0.409794" />
+                                <point x="0.776667" y="0.5" />
+                                <point x="0.791667" y="0.677835" />
+                                <point x="0.5" y="0.713918" />
+                                <point x="0.175" y="0.729381" />
+                                <point x="0.11" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Plant" sid="761218398797567">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="300031614672136" speed="5">
+                        <frame duration="1" hotspotX="0.487179" hotspotY="0.430769" original-source="E:\UIT_image\Plant1.png">
+                            <collision-poly>
+                                <point x="1" y="0" />
+                                <point x="0" y="0" />
+                                <point x="0" y="1" />
+                                <point x="1" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Grow1" pingpong="0" repeatcount="1" repeatto="0" sid="773770288165322" speed="5">
+                        <frame duration="1" hotspotX="0.560748" hotspotY="0.502564" original-source="D:\10\Code\Construct\CTCG\NEW HOPE\Animations\PlantLon\Default\000.png">
+                            <collision-poly>
+                                <point x="0.343796" y="0.41772" />
+                                <point x="0.512397" y="0.0456719" />
+                                <point x="0.951255" y="0.238851" />
+                                <point x="0.988446" y="0.474958" />
+                                <point x="0.750422" y="0.546506" />
+                                <point x="0.557027" y="0.975792" />
+                                <point x="0.0710597" y="0.699141" />
+                                <point x="0.0735391" y="0.460649" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Grow2" pingpong="0" repeatcount="1" repeatto="0" sid="410872067031062" speed="5">
+                        <frame duration="1" hotspotX="0.556701" hotspotY="0.504951" original-source="D:\10\Code\Construct\CTCG\Picture\Plant3.png">
+                            <collision-poly>
+                                <point x="0.3575" y="0.440964" />
+                                <point x="0.5575" y="0.0746988" />
+                                <point x="0.925" y="0.293976" />
+                                <point x="0.9175" y="0.503614" />
+                                <point x="0.7525" y="0.546988" />
+                                <point x="0.5575" y="0.980723" />
+                                <point x="0.155" y="0.746988" />
+                                <point x="0.11" y="0.503614" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Shovel" sid="893178147491030">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746743223628052" speed="5">
+                        <frame duration="1" hotspotX="0.550691" hotspotY="0.494681" original-source="E:\UIT_image\Shovel.png">
+                            <collision-poly>
+                                <point x="0.940092" y="0.74202" />
+                                <point x="0.993088" y="0.973404" />
+                                <point x="0.792626" y="0.984043" />
+                                <point x="0.0161302" y="0.12234" />
+                                <point x="0.10599" y="0.00265957" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Shoes" sid="463273025487362">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="916586948111153" speed="5">
+                        <frame duration="1" hotspotX="0.485" hotspotY="0.479167" original-source="E:\UIT_image\Shoe.png">
+                            <collision-poly>
+                                <point x="0.150664" y="0.0118243" />
+                                <point x="0.485493" y="0" />
+                                <point x="0.638421" y="0.401915" />
+                                <point x="1" y="0.45473" />
+                                <point x="0.865796" y="0.941329" />
+                                <point x="0.485493" y="0.953153" />
+                                <point x="0.0791812" y="0.945946" />
+                                <point x="0.00448742" y="0.483896" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PlantLon" sid="475105301950281">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="374868195882146" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\UIT_image\PlantLon.png">
+                            <collision-poly>
+                                <point x="0.396667" y="0.495833" />
+                                <point x="0.5" y="0.129167" />
+                                <point x="0.745" y="0.31875" />
+                                <point x="0.74" y="0.5" />
+                                <point x="0.63" y="0.5375" />
+                                <point x="0.5" y="0.9125" />
+                                <point x="0.256667" y="0.679167" />
+                                <point x="0.201667" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AxitRain" sid="862731635420102">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="550047408066543">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="529414118215806" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\10\Code\Construct\CTCG\Picture\Rain.png">
+                            <collision-poly>
+                                <point x="0" y="0" />
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="AxitRainBar" sid="916844185187749">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="264423622198596" speed="5">
+                        <frame duration="1" hotspotX="-0.005" hotspotY="0.52" original-source="D:\10\Code\Construct\CTCG\new ob\AxitRainBar.png">
+                            <collision-poly>
+                                <point x="0.005" y="0.04" />
+                                <point x="0.5" y="0" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Food" sid="355970037139825">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="334267130851232" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\10\Code\Construct\CTCG\new ob\food.png">
+                            <collision-poly>
+                                <point x="0.02" y="0.01" />
+                                <point x="1" y="0" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="HealthBar" sid="234326524047381">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="866745934695029" speed="5">
+                        <frame duration="1" hotspotX="-0.00333333" hotspotY="0.48" original-source="D:\10\Code\Construct\CTCG\new ob\HealthBar.png">
+                            <collision-poly>
+                                <point x="0.01" y="0.12" />
+                                <point x="0.5" y="0" />
+                                <point x="0.99" y="0.12" />
+                                <point x="1" y="0.48" />
+                                <point x="0.99" y="0.88" />
+                                <point x="0.5" y="1" />
+                                <point x="0.01" y="0.88" />
+                                <point x="0" y="0.48" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Bucket" sid="367689236702140">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="IsDirty" sid="909701566325902" type="boolean" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="Physics" sid="560721937499301">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="636873862197811" speed="5">
+                        <frame duration="1" hotspotX="0.458955" hotspotY="0.446667" original-source="D:\10\Code\Construct\CTCG\Picture\Bucket-empty.png">
+                            <collision-poly>
+                                <point x="0.0597015" y="0.09" />
+                                <point x="0.458955" y="0.0166667" />
+                                <point x="0.947761" y="0.01" />
+                                <point x="0.951493" y="0.446667" />
+                                <point x="0.921642" y="1" />
+                                <point x="0.111941" y="1" />
+                                <point x="0.11194" y="0.756667" />
+                                <point x="0.0708955" y="0.446667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="BucketFillDirt" pingpong="0" repeatcount="1" repeatto="0" sid="670821610723439" speed="5">
+                        <frame duration="1" hotspotX="0.458955" hotspotY="0.446667" original-source="D:\10\Code\Construct\CTCG\Picture\Bucket-filled (1).png">
+                            <collision-poly>
+                                <point x="0.0597015" y="0.09" />
+                                <point x="0.458955" y="0.0166667" />
+                                <point x="0.947761" y="0.01" />
+                                <point x="0.951493" y="0.446667" />
+                                <point x="0.962687" y="1" />
+                                <point x="0.115672" y="1" />
+                                <point x="0.11194" y="0.756667" />
+                                <point x="0.0708955" y="0.446667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BucketFill" sid="714059526706409">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="177557276467436">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="895704697569832" speed="5">
+                        <frame duration="1" hotspotX="0.458955" hotspotY="0.446667" original-source="D:\10\Code\Construct\CTCG\Picture\Bucket-filled.png">
+                            <collision-poly>
+                                <point x="0.0597015" y="0.09" />
+                                <point x="0.458955" y="0.0166667" />
+                                <point x="0.947761" y="0.01" />
+                                <point x="0.951493" y="0.446667" />
+                                <point x="0.910448" y="1" />
+                                <point x="0.13806" y="1" />
+                                <point x="0.11194" y="0.756667" />
+                                <point x="0.0708955" y="0.446667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Pour" pingpong="0" repeatcount="2" repeatto="0" sid="439611881291240" speed="5">
+                        <frame duration="1" hotspotX="0.617977" hotspotY="0.412109" original-source="D:\10\Code\Construct\CTCG\Picture\Bucket-pouring.png">
+                            <collision-poly>
+                                <point x="0.264045" y="0.166016" />
+                                <point x="0.617977" y="0.0214844" />
+                                <point x="0.856742" y="0.246094" />
+                                <point x="0.983146" y="0.412109" />
+                                <point x="0.960674" y="0.681641" />
+                                <point x="0.617977" y="0.544922" />
+                                <point x="0.286517" y="0.642578" />
+                                <point x="0.0505618" y="0.412109" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="FoodCan" sid="605760921707908">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="948001257835047" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\10\Code\Construct\CTCG\Picture\Food.png">
+                            <collision-poly>
+                                <point x="0.425781" y="0.425781" />
+                                <point x="0.5" y="0.046875" />
+                                <point x="0.949219" y="0.0507813" />
+                                <point x="0.984375" y="0.5" />
+                                <point x="0.988281" y="0.9375" />
+                                <point x="0.492188" y="0.9375" />
+                                <point x="0.0292969" y="0.9375" />
+                                <point x="0.0273438" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TreeGrow" sid="854120670683636">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991548439130761" speed="5">
+                        <frame duration="1" hotspotX="0.5575" hotspotY="0.503614" original-source="D:\10\Code\Construct\CTCG\Picture\Plant3.png">
+                            <collision-poly>
+                                <point x="0.4025" y="0.498795" />
+                                <point x="0.5575" y="0.0746988" />
+                                <point x="0.925" y="0.293976" />
+                                <point x="0.9175" y="0.503614" />
+                                <point x="0.7525" y="0.546988" />
+                                <point x="0.5575" y="0.980723" />
+                                <point x="0.155" y="0.746988" />
+                                <point x="0.11" y="0.503614" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Shelter" sid="260569736255145">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="776543204536907">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="665023123000308">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="991267970076948" speed="5">
+                        <frame duration="1" hotspotX="0.513064" hotspotY="0.286738" original-source="D:\10\Code\Construct\CTCG\Picture\Shelter.png">
+                            <collision-poly>
+                                <point x="0.916865" y="0.0143367" />
+                                <point x="0.983373" y="0.139785" />
+                                <point x="0.296912" y="0.261649" />
+                                <point x="0.135391" y="0.62724" />
+                                <point x="0.290974" y="0.985662" />
+                                <point x="0.137767" y="0.992831" />
+                                <point x="0.0023753" y="0.62724" />
+                                <point x="0.258907" y="0.107527" />
+                                <point x="0.672209" y="0.046595" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite2" sid="949864944782404">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="791975372709274" speed="5">
+                        <frame duration="1" hotspotX="0.580913" hotspotY="0.412766" original-source="D:\10\Code\Construct\CTCG\Picture\WaterFilter.png">
+                            <collision-poly>
+                                <point x="0.170124" y="0" />
+                                <point x="1" y="0.00212766" />
+                                <point x="1" y="0.208511" />
+                                <point x="1" y="1" />
+                                <point x="0.182573" y="1" />
+                                <point x="0.178423" y="0.606383" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PlantInShose" sid="139247920091258">
+                <plugin id="Sprite" />
+                <behaviors>
+                    <behavior-type name="Physics" sid="607612219558246">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="988213209456841" speed="5">
+                        <frame duration="1" hotspotX="0.477756" hotspotY="0.524752" original-source="D:\10\Code\Construct\CTCG\Picture\Plant-in-shoe.png">
+                            <collision-poly>
+                                <point x="0.104449" y="0.0237624" />
+                                <point x="0.562863" y="0.0673267" />
+                                <point x="0.582205" y="0.675247" />
+                                <point x="0.974855" y="0.639604" />
+                                <point x="0.887814" y="0.992079" />
+                                <point x="0.477756" y="1" />
+                                <point x="0.0135397" y="1" />
+                                <point x="0.0793037" y="0.532673" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TreeGrow3" sid="140246014942609">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="354931048460102" speed="5">
+                        <frame duration="1" hotspotX="0.5575" hotspotY="0.503614" original-source="D:\10\Code\Construct\CTCG\Picture\Plant3.png">
+                            <collision-poly>
+                                <point x="0.3325" y="0.46506" />
+                                <point x="0.4325" y="0.026506" />
+                                <point x="0.925" y="0.293976" />
+                                <point x="0.9175" y="0.503614" />
+                                <point x="0.7525" y="0.546988" />
+                                <point x="0.5575" y="0.980723" />
+                                <point x="0.155" y="0.746988" />
+                                <point x="0.11" y="0.503614" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Garbage_B" sid="145064101529634">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307538518151893" speed="5">
+                        <frame duration="1" hotspotX="0.454545" hotspotY="0.512" original-source="D:\10\Code\Construct\CTCG\Picture\Garbage.png">
+                            <collision-poly>
+                                <point x="0.45387" y="0.34462" />
+                                <point x="0.783943" y="0.293562" />
+                                <point x="0.916777" y="0.514814" />
+                                <point x="0.977156" y="0.940299" />
+                                <point x="0.45387" y="0.967955" />
+                                <point x="0" y="0.887113" />
+                                <point x="0.143924" y="0.514814" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="2" loop="0" name="Open" pingpong="0" repeatcount="1" repeatto="0" sid="173454603855744" speed="5">
+                        <frame duration="1" hotspotX="0.475524" hotspotY="0.504" original-source="D:\10\Code\Construct\CTCG\Picture\Garbage.png" />
+                        <frame duration="1" hotspotX="0.455696" hotspotY="0.449438" original-source="D:\10\Code\Construct\CTCG\Picture\Bucket-empty.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Default2" pingpong="0" repeatcount="1" repeatto="0" sid="550214668162155" speed="5">
+                        <frame duration="1" hotspotX="0.455696" hotspotY="0.449438" original-source="D:\10\Code\Construct\CTCG\Picture\Bucket-empty.png">
+                            <collision-poly>
+                                <point x="0.0597015" y="0.09" />
+                                <point x="0.458955" y="0.0166667" />
+                                <point x="0.947761" y="0.01" />
+                                <point x="0.951493" y="0.446667" />
+                                <point x="0.91791" y="0.856667" />
+                                <point x="0.458955" y="0.996667" />
+                                <point x="0.11194" y="0.756667" />
+                                <point x="0.0708955" y="0.446667" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Garbage_W" sid="521376364256234">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="732942489094020" speed="5">
+                        <frame duration="1" hotspotX="0.454545" hotspotY="0.512" original-source="D:\10\Code\Construct\CTCG\Picture\Garbage.png">
+                            <collision-poly>
+                                <point x="0.45387" y="0.34462" />
+                                <point x="0.783943" y="0.293562" />
+                                <point x="0.916777" y="0.514814" />
+                                <point x="0.977156" y="0.940299" />
+                                <point x="0.45387" y="0.967955" />
+                                <point x="0" y="0.887113" />
+                                <point x="0.143924" y="0.514814" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="2" loop="0" name="Open" pingpong="0" repeatcount="1" repeatto="0" sid="303946707576350" speed="5">
+                        <frame duration="1" hotspotX="0.475524" hotspotY="0.504" original-source="D:\10\Code\Construct\CTCG\Picture\Garbage.png">
+                            <collision-poly>
+                                <point x="0.478022" y="0.338947" />
+                                <point x="0.778388" y="0.288421" />
+                                <point x="0.899267" y="0.507368" />
+                                <point x="0.954212" y="0.928421" />
+                                <point x="0.478022" y="0.955789" />
+                                <point x="0.047619" y="0.875789" />
+                                <point x="0.195971" y="0.507368" />
+                            </collision-poly>
+                        </frame>
+                        <frame duration="1" hotspotX="0.58" hotspotY="0.408163" original-source="D:\10\Code\Construct\CTCG\Picture\WaterFilter.png">
+                            <collision-poly>
+                                <point x="0.195021" y="0.214894" />
+                                <point x="0.580913" y="0.00638298" />
+                                <point x="0.979253" y="0.208511" />
+                                <point x="0.991701" y="0.623404" />
+                                <point x="0.580913" y="0.993617" />
+                                <point x="0.186722" y="0.614894" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="1" loop="0" name="Default2" pingpong="0" repeatcount="1" repeatto="0" sid="482235156714616" speed="5">
+                        <frame duration="1" hotspotX="0.58" hotspotY="0.408163" original-source="D:\10\Code\Construct\CTCG\Picture\WaterFilter.png">
+                            <collision-poly>
+                                <point x="0.195021" y="0.214894" />
+                                <point x="0.580913" y="0.00638298" />
+                                <point x="0.979253" y="0.208511" />
+                                <point x="0.991701" y="0.623404" />
+                                <point x="0.580913" y="0.993617" />
+                                <point x="0.186722" y="0.614894" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Garbage_F" sid="657011978327510">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766395012239314" speed="5">
+                        <frame duration="1" hotspotX="0.454545" hotspotY="0.512" original-source="D:\10\Code\Construct\CTCG\Picture\Garbage.png">
+                            <collision-poly>
+                                <point x="0.45387" y="0.34462" />
+                                <point x="0.783943" y="0.293562" />
+                                <point x="0.916777" y="0.514814" />
+                                <point x="0.977156" y="0.940299" />
+                                <point x="0.45387" y="0.967955" />
+                                <point x="0" y="0.887113" />
+                                <point x="0.143924" y="0.514814" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                    <animation framecount="2" loop="0" name="Open" pingpong="0" repeatcount="1" repeatto="0" sid="518926300828508" speed="5">
+                        <frame duration="1" hotspotX="0.475524" hotspotY="0.504" original-source="D:\10\Code\Construct\CTCG\Picture\Garbage.png" />
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\10\Code\Construct\CTCG\Picture\Food.png" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="Default2" pingpong="0" repeatcount="1" repeatto="0" sid="144281341854058" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\10\Code\Construct\CTCG\Picture\Food.png">
+                            <collision-poly>
+                                <point x="0.423695" y="0.423695" />
+                                <point x="0.5" y="0.0341365" />
+                                <point x="0.961847" y="0.0381526" />
+                                <point x="0.997992" y="0.5" />
+                                <point x="0.859438" y="0.859438" />
+                                <point x="0.5" y="0.985944" />
+                                <point x="0.0522088" y="0.947791" />
+                                <point x="0.0140562" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Thum1" sid="508720070012721">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="585945767535487" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\OS1.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Thum2" sid="550206818175138">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="769443011231001" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\OS3.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite3" sid="379173609936220">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="251208361258609" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\ES.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite4" sid="216584398862014">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="375250522973046" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\Picture1.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite5" sid="744293652302075">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="843550972987677" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\Picture2.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Guide" sid="935753720836813">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="981728178221734" speed="5">
+                        <frame duration="1" hotspotX="0.493455" hotspotY="0.486111" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\HuongDan.png">
+                            <collision-poly>
+                                <point x="0.0196335" y="0.0169753" />
+                                <point x="0.492147" y="0.101852" />
+                                <point x="0.975131" y="0.00617284" />
+                                <point x="0.997382" y="0.486111" />
+                                <point x="0.980366" y="0.972222" />
+                                <point x="0.492147" y="0.887346" />
+                                <point x="0.0235602" y="0.950617" />
+                                <point x="0.0039267" y="0.486111" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Close" sid="763663932660591">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="410798377190541" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\close.png">
+                            <collision-poly>
+                                <point x="0.146875" y="0.146875" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853125" y="0.146875" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853125" y="0.853125" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146875" y="0.853125" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Ìno" sid="816071114910219">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716219585894041" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\ìo.png">
+                            <collision-poly>
+                                <point x="0.146484" y="0.146484" />
+                                <point x="0.5" y="0" />
+                                <point x="0.853516" y="0.146484" />
+                                <point x="1" y="0.5" />
+                                <point x="0.853516" y="0.853516" />
+                                <point x="0.5" y="1" />
+                                <point x="0.146484" y="0.853516" />
+                                <point x="0" y="0.5" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="Sprite6" sid="422417246471219">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="279215256834590" speed="5">
+                        <frame duration="1" hotspotX="0.509537" hotspotY="0.502183" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\KeyBoard.png">
+                            <collision-poly>
+                                <point x="0.00408719" y="0.0829694" />
+                                <point x="0.508174" y="0.00436681" />
+                                <point x="0.997275" y="0.135371" />
+                                <point x="0.99455" y="0.855895" />
+                                <point x="0.508174" y="0.995633" />
+                                <point x="0.00408719" y="0.917031" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder name="BackGround">
+            <object-type name="BackGround" sid="805238323945518">
+                <plugin id="Sprite" />
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="697841487975112" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Background\Environment.png" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="TiledBackground" sid="141785902811523">
+                <plugin id="TiledBg" />
+                <behaviors>
+                    <behavior-type name="Solid" sid="815262948914020">
+                        <behavior id="solid" />
+                    </behavior-type>
+                    <behavior-type name="Physics" sid="974200944499096">
+                        <behavior id="Physics" />
+                    </behavior-type>
+                </behaviors>
+                <texture original-source="C:\Users\thejo\Downloads\UIT HACKATHON\Object\Platform.png" />
+            </object-type>
+        </object-folder>
+        <object-type name="Mouse" sid="799137405592036">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Pausebtn" sid="144992370432297">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974771635141059" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\thejo\Downloads\UIT HACKATHON\screen\pause.png">
+                        <collision-poly>
+                            <point x="0.146484" y="0.146484" />
+                            <point x="0.5" y="0" />
+                            <point x="0.853516" y="0.146484" />
+                            <point x="1" y="0.5" />
+                            <point x="0.853516" y="0.853516" />
+                            <point x="0.5" y="1" />
+                            <point x="0.146484" y="0.853516" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Keyboard" sid="240366481872007">
+            <plugin id="Keyboard" />
+        </object-type>
+    </object-folder>
+    <families>
+        <family name="Thung" plugin-id="Sprite" sid="408860479982647">
+            <members>
+                <member>Thung1</member>
+                <member>Thung2</member>
+                <member>Thung3</member>
+                <member>Thung4</member>
+            </members>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="969120549809358">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Physics" sid="960740477213783">
+                    <behavior id="Physics" />
+                </behavior-type>
+            </behaviors>
+        </family>
+    </families>
+    <layout-folder>
+        <layout>Start.xml</layout>
+        <layout>Pause.xml</layout>
+        <layout>Fail.xml</layout>
+        <layout>Introduce-1.xml</layout>
+        <layout>Introduce-2.xml</layout>
+        <layout>Complete.xml</layout>
+        <layout>Main.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Pause Event.xml</event-sheet>
+        <event-sheet>Start Screen Event.xml</event-sheet>
+        <event-sheet>Fail Screen Event.xml</event-sheet>
+        <event-sheet>Introduce-1 Event.xml</event-sheet>
+        <event-sheet>Introduce-2 Event.xml</event-sheet>
+        <event-sheet>Complete Event.xml</event-sheet>
+        <event-sheet>Main Event.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Mouse" uid="1" />
+        <global-instance type="Keyboard" uid="15" />
+    </global-instances>
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>

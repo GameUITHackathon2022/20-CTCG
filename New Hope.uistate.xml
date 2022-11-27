@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout active="1" order="0">Main</layout>
+        <layout order="1">Introduce-1</layout>
+        <layout order="2">Start</layout>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1">
+        <family expanded="0" name="Thung" />
+    </families-expanded>
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/Title/" />
+        <folder expanded="1" path="object-folder/Player/" />
+        <folder expanded="1" path="object-folder/Object/" />
+        <folder expanded="0" path="object-folder/BackGround/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="1" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Fail/" />
+        <folder expanded="1" path="animation-folder/Start/" />
+        <folder expanded="1" path="animation-folder/Try/" />
+        <folder expanded="1" path="animation-folder/Ready/" />
+        <folder expanded="1" path="animation-folder/Quit/" />
+        <folder expanded="1" path="animation-folder/Title1/" />
+        <folder expanded="1" path="animation-folder/Title2/" />
+        <folder expanded="1" path="animation-folder/EndTitle1/" />
+        <folder expanded="1" path="animation-folder/EndTitle2/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/Title4/" />
+        <folder expanded="1" path="animation-folder/AxitRainBarBorder/" />
+        <folder expanded="1" path="animation-folder/Light/" />
+        <folder expanded="1" path="animation-folder/FakeMouse/" />
+        <folder expanded="1" path="animation-folder/WinV/" />
+        <folder expanded="1" path="animation-folder/Block/" />
+        <folder expanded="1" path="animation-folder/Player/" />
+        <folder expanded="1" path="animation-folder/Garbage/" />
+        <folder expanded="1" path="animation-folder/Fence/" />
+        <folder expanded="1" path="animation-folder/BanDo/" />
+        <folder expanded="1" path="animation-folder/Thung3/" />
+        <folder expanded="1" path="animation-folder/Thung4/" />
+        <folder expanded="1" path="animation-folder/Thung2/" />
+        <folder expanded="1" path="animation-folder/Thung1/" />
+        <folder expanded="1" path="animation-folder/NhietKe/" />
+        <folder expanded="1" path="animation-folder/Hole/" />
+        <folder expanded="1" path="animation-folder/Plant/" />
+        <folder expanded="1" path="animation-folder/Shovel/" />
+        <folder expanded="1" path="animation-folder/Shoes/" />
+        <folder expanded="1" path="animation-folder/PlantLon/" />
+        <folder expanded="1" path="animation-folder/AxitRain/" />
+        <folder expanded="1" path="animation-folder/AxitRainBar/" />
+        <folder expanded="1" path="animation-folder/Food/" />
+        <folder expanded="1" path="animation-folder/HealthBar/" />
+        <folder expanded="1" path="animation-folder/Bucket/" />
+        <folder expanded="1" path="animation-folder/BucketFill/" />
+        <folder expanded="1" path="animation-folder/FoodCan/" />
+        <folder expanded="1" path="animation-folder/TreeGrow/" />
+        <folder expanded="1" path="animation-folder/Shelter/" />
+        <folder expanded="1" path="animation-folder/Sprite2/" />
+        <folder expanded="1" path="animation-folder/PlantInShose/" />
+        <folder expanded="1" path="animation-folder/TreeGrow3/" />
+        <folder expanded="1" path="animation-folder/Garbage_B/" />
+        <folder expanded="1" path="animation-folder/Garbage_W/" />
+        <folder expanded="1" path="animation-folder/Garbage_F/" />
+        <folder expanded="1" path="animation-folder/Thum1/" />
+        <folder expanded="1" path="animation-folder/Thum2/" />
+        <folder expanded="1" path="animation-folder/Sprite3/" />
+        <folder expanded="1" path="animation-folder/Sprite4/" />
+        <folder expanded="1" path="animation-folder/Sprite5/" />
+        <folder expanded="1" path="animation-folder/Guide/" />
+        <folder expanded="1" path="animation-folder/Close/" />
+        <folder expanded="1" path="animation-folder/Ìno/" />
+        <folder expanded="1" path="animation-folder/Sprite6/" />
+        <folder expanded="1" path="animation-folder/BackGround/" />
+        <folder expanded="1" path="animation-folder/Pausebtn/" />
+    </folders-expanded>
+</c2uistate>
